@@ -40,3 +40,30 @@
     color: white;
     
 }
+
+.product-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    font-size: 16px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.product-list .actions button[disabled]{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.product-list .actions button:hover{
+    opacity: 0.7;
+}
+
